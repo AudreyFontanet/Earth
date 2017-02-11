@@ -9,8 +9,7 @@ public class IOInteraction : MonoBehaviour {
 
 	[SerializeField] private Transform earth;
 
-	//TODO : move on a view
-	[SerializeField] private Text displayer;
+	[SerializeField] private UIManager ui;
 
 	void Update()
 	{
@@ -27,13 +26,21 @@ public class IOInteraction : MonoBehaviour {
 				Vector2 sphericalCoord = CoordinateFinder.CartesianToSphericalCoordinates(cartesianCoord);
 				// Process
 				string location = RestApiInterface.GoogleAPIProcessCoord(sphericalCoord);
-				//WeatherData weatherData = RestApiInterface.WeatherMapProcessCoord (sphericalCoord);
-				// Display resul
-				displayer.text = location;
-			}
+                //WeatherData weatherData = RestApiInterface.WeatherMapProcessCoord (sphericalCoord);
+                // Display resul
+                ui.Update(location);
+			} else
+            {
+                //reset ui
+                ui.Update(null);
+            }
 		}
+        else if (Input.GetButtonDown("Fire2")){
+            //reset ui
+            ui.Update(null);
+        }
 		// Escape -> quit 
-		if (Input.GetKeyDown (KeyCode.Escape)) {
+		else if (Input.GetKeyDown (KeyCode.Escape)) {
 			Application.Quit ();
 		}
 	}

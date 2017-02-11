@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 // Maths utils to handle cartesian and spherical coordiantes frame
-public class CoordinateFinder : MonoBehaviour {
+public class CoordinateFinder  {
 
 	/// <summary>
 	/// Cartesians to spherical coordinates.

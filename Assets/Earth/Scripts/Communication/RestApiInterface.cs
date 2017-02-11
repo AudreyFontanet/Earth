@@ -9,7 +9,7 @@ using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 
 
-public class RestApiInterface : MonoBehaviour
+public class RestApiInterface
 {
 
 	/// <summary>
