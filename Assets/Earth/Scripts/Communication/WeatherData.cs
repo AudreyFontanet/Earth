@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class WeatherData {
 	private string city;
-	private string weather;
+
+    private string weather;
 
 	public string City {
 		get {

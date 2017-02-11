@@ -25,20 +25,20 @@ public class IOInteraction : MonoBehaviour {
 				// Compute spherical coordinates
 				Vector2 sphericalCoord = CoordinateFinder.CartesianToSphericalCoordinates(cartesianCoord);
 				// Process
-				string location = RestApiInterface.GoogleAPIProcessCoord(sphericalCoord);
-                ui.Update(location);
+				//string location = RestApiInterface.GoogleAPIProcessCoord(sphericalCoord);
                 WeatherData weatherData = RestApiInterface.WeatherMapProcessCoord (sphericalCoord);
+                ui.UpdateUI(weatherData);
                 Debug.Log(weatherData);
                 // Display resul
 			} else
             {
                 //reset ui
-                ui.Update(null);
+                ui.UpdateUI(null);
             }
 		}
         else if (Input.GetButtonDown("Fire2")){
             //reset ui
-            ui.Update(null);
+            ui.UpdateUI(null);
         }
 		// Escape -> quit 
 		else if (Input.GetKeyDown (KeyCode.Escape)) {
