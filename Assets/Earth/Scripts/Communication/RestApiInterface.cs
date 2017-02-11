@@ -20,7 +20,6 @@ public class RestApiInterface
 	public static string GoogleAPIProcessCoord (Vector2 sphericalCoord)
 	{
 		string result = "";
-		Debug.Log ("Process coord : " + sphericalCoord.ToString ());
 		XmlDocument xDoc = new XmlDocument ();
 		String coordinate = sphericalCoord.x + "," + sphericalCoord.y;
 
@@ -55,13 +54,13 @@ public class RestApiInterface
 	public static WeatherData WeatherMapProcessCoord (Vector2 sphericalCoord)
 	{
 		WeatherData result = new WeatherData();
-		Debug.Log ("Process coord : " + sphericalCoord.ToString ());
 		XmlDocument xDoc = new XmlDocument ();
-		String coordinate = "lat=" + sphericalCoord.x + "&long=" + sphericalCoord.y;
+		String coordinate = "lat=" + sphericalCoord.x + "&lon=" + sphericalCoord.y;
 	
 		ServicePointManager.ServerCertificateValidationCallback = MyRemoteCertificateValidationCallback;
-	
-		xDoc.Load ("http://api.openweathermap.org/data/2.5/weather?"+coordinate+"&mode=xml&APPID=0f90c1f61fda0ae7b576013098a7f91c");
+        string request = "http://api.openweathermap.org/data/2.5/weather?" + coordinate + "&mode=xml&APPID=0f90c1f61fda0ae7b576013098a7f91c";
+
+        xDoc.Load (request);
 		XmlNodeList xNodelst = xDoc.GetElementsByTagName ("current");
 		XmlNode xNode = xNodelst.Item (0);
 		xDoc.Save ("out.xml");

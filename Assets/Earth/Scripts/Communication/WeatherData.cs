@@ -23,4 +23,6 @@ public class WeatherData {
 			weather = value;
 		}
 	}
+
+    public override string ToString() { return city + " " + weather; }
 }

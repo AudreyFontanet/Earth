@@ -26,9 +26,10 @@ public class IOInteraction : MonoBehaviour {
 				Vector2 sphericalCoord = CoordinateFinder.CartesianToSphericalCoordinates(cartesianCoord);
 				// Process
 				string location = RestApiInterface.GoogleAPIProcessCoord(sphericalCoord);
-                //WeatherData weatherData = RestApiInterface.WeatherMapProcessCoord (sphericalCoord);
-                // Display resul
                 ui.Update(location);
+                WeatherData weatherData = RestApiInterface.WeatherMapProcessCoord (sphericalCoord);
+                Debug.Log(weatherData);
+                // Display resul
 			} else
             {
                 //reset ui
