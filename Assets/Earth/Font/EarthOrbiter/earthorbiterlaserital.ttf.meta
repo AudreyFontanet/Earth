@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: bc598f076db3039489d6f5efc25787d2
+timeCreated: 1485640724
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Earth Orbiter Laser Italic
+  fontNames:
+  - Earth Orbiter Laser Italic
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

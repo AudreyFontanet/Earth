@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 9ba06fb679dc980468625f5573e5befe
+timeCreated: 1485640723
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Earth Orbiter Engraved
+  fontNames:
+  - Earth Orbiter Engraved
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

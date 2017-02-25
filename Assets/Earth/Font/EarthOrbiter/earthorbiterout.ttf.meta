@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 1b2b9161287e4724cb838f07679d2361
+timeCreated: 1485640723
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Earth Orbiter Outline
+  fontNames:
+  - Earth Orbiter Outline
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 1df69afd53a4ff642b0ecf5cced36e91
+timeCreated: 1485640723
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Earth Orbiter Bold Italic
+  fontNames:
+  - Earth Orbiter Bold Italic
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

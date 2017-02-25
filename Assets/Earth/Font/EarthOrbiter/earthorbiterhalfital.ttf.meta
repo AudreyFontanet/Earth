@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 40c34e22e9415784ca7aada5c87d5aed
+timeCreated: 1485640723
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Earth Orbiter Halftone Italic
+  fontNames:
+  - Earth Orbiter Halftone Italic
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

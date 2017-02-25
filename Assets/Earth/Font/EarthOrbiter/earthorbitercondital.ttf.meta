@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 50780a2c4246e6146bc8cc2ce285ce68
+timeCreated: 1485640723
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Earth Orbiter Condensed Italic
+  fontNames:
+  - Earth Orbiter Condensed Italic
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

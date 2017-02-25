@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: b68ef686607d17246880c73d7c9d232d
+timeCreated: 1485640724
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Earth Orbiter Condensed
+  fontNames:
+  - Earth Orbiter Condensed
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
